@@ -18,17 +18,13 @@ Paste the values that you arrived at for the hyperparameters of the normal-inver
 
 ## Solution:
 The prior hyperparameter values I arrived at were:
-* μ₀ = 2.29
-* ν₀ = 1833.34
-* α₀ = 356.41
-* β₀ = 88.27
+* μ₀ = 2.30000008    
+* ν₀ = 11.00143402
+* α₀ = 9.56252627
+* β₀ = 23.5470067
 
-I verified the validity of these values by plugging them into a function that generates n samples from the normal-inverse-gamma distribution, where each sample consists of (x,sigma2). 
+I verified the solution by calculating the 68% confidence interval for a normal-inverge-gamma distribution with the above prior hyperparameter values (10000 samples were drawn).
 
-I generated 10 samples using the above hyperparameters, then plotted these values as normal distributions.
 
-The following graph was achieved:
-
-![norm_dist_samples](https://github.com/hueyning/CS146-repo/blob/master/CS146%20Session%204.1%20-%20Selecting%20prior%20hyperparameters/norm_dist_samples.png)
-
-The graph shows an average mean of around 2.3, and variance of around 2.75 (aka standard deviation of ~1.658).
+68% confidence interval for mean: (1.8125130790485078, 2.7710685971047777)
+68% confidence interval for variance: (1.875758984857007, 3.6186149782970967)
