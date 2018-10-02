@@ -29,6 +29,6 @@ I generated 10 samples using the above hyperparameters, then plotted these value
 
 The following graph was achieved:
 
-![norm_dist_samples](/norm_dist_samples.png)
+![norm_dist_samples](https://github.com/hueyning/CS146-repo/blob/master/CS146%20Session%204.1%20-%20Selecting%20prior%20hyperparameters/norm_dist_samples.png)
 
 The graph shows an average mean of around 2.3, and variance of around 2.75 (aka standard deviation of ~1.658).
