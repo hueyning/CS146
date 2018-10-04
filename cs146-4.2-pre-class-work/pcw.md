@@ -21,8 +21,8 @@ Since the parameters for the Beta distribution are constrained by &alpha; > 0 an
 
 I've decided to choose a Gamma(&alpha;=7, &beta;=2) distribution in order to sample for both &alpha; and &beta;, which gives us &mu; = E(x) = 3.5. 
 
-![Image of Gamma dist](https://github.com/hueyning/CS146-repo/blob/master/cs146-4.2-pre-class-work/Gamma-distribution.png | width=100)
+<img src="https://github.com/hueyning/CS146-repo/blob/master/cs146-4.2-pre-class-work/Gamma-distribution.png" width="500">
 
 Thus, the expected field goal rate will be modeled by Beta(&alpha;=3.5, &beta;=3.5), which gives us &mu; = E(x) = 0.5. The shape of the graph resembles a normal distribution, with σ^2=Var(X)=0.0313.
 
-![Image of Beta dist](https://github.com/hueyning/CS146-repo/blob/master/cs146-4.2-pre-class-work/Beta-distribution.png | width=100)
+<img src="https://github.com/hueyning/CS146-repo/blob/master/cs146-4.2-pre-class-work/Beta-distribution.png" width="500">
